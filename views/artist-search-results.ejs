@@ -1,0 +1,17 @@
+
+
+    <% artistArray.forEach(artist => { %>
+    <div>
+        <% if (typeof artist.images[0] !== 'undefined') { %>
+            <img src="<%- artist.images[0].url %> " alt="">
+            <% } %>
+        
+        <h2><%- artist.name %> </h2>
+        <a href="">View album</a>
+    </div>
+    
+    <% }) %>
+
+    
+   
+

@@ -1,0 +1,15 @@
+<div style="border: 1px solid black; padding: 1rem; margin: 1rem">
+    <img src="" alt="">
+    <p><%= data.body.artists.items.name %></p>
+    <a href="/recipes/<%- recipe._id %>">Details</a>
+</div>
+
+
+
+
+
+<!-- <ul>
+  <% .forEach(result => { %>
+  <li><%- ingredient%></li>
+  <% }) %>
+</ul> -->
